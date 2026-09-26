@@ -250,7 +250,7 @@ a {
 .projects {
   position: relative;
   z-index: 0;
-  padding: clamp(10rem, 17vw, 16rem) var(--edge) clamp(7rem, 10vw, 10rem);
+  padding: clamp(7rem, 12vw, 11rem) var(--edge) clamp(7rem, 10vw, 10rem);
   background: var(--paper);
 }
 
@@ -449,7 +449,7 @@ a {
   }
 
   .projects {
-    padding-top: 8rem;
+    padding-top: 6rem;
   }
 
   .projects h2 {
