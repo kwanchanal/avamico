@@ -312,6 +312,11 @@ a {
 }
 
 @media (max-width: 760px) {
+  .hero,
+  .hero__stage {
+    min-height: max(100svh, 54rem);
+  }
+
   .site-header {
     align-items: flex-start;
   }
@@ -338,12 +343,15 @@ a {
   }
 
   .portrait {
-    bottom: 4vh;
+    bottom: -8vh;
     width: 152vw;
     max-width: none;
   }
 
   .hero__contact {
+    top: clamp(16rem, 32vh, 18.5rem);
+    right: var(--edge);
+    bottom: auto;
     width: min(78vw, 23rem);
     min-height: 15rem;
   }
