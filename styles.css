@@ -283,7 +283,8 @@ a {
   grid-auto-flow: column;
   grid-auto-columns: max-content;
   width: max-content;
-  animation: work-scroll 28s linear infinite;
+  animation: work-scroll 38s linear infinite;
+  transform: translate3d(0, 0, 0);
   will-change: transform;
 }
 
@@ -415,7 +416,7 @@ a {
 
 @keyframes work-scroll {
   to {
-    transform: translateX(-50%);
+    transform: translate3d(-25%, 0, 0);
   }
 }
 
