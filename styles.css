@@ -134,7 +134,7 @@ a {
   position: relative;
   z-index: 1;
   width: 100%;
-  margin: 0;
+  margin: clamp(-1.5rem, -2vh, -0.5rem) 0 0;
   font-family: var(--sans);
   font-size: clamp(5rem, 12.8vw, 12rem);
   font-weight: 400;
