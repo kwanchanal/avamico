@@ -314,7 +314,7 @@ a {
 @media (max-width: 760px) {
   .hero,
   .hero__stage {
-    min-height: max(100svh, 54rem);
+    min-height: max(88svh, 50rem);
   }
 
   .site-header {
@@ -344,7 +344,7 @@ a {
   }
 
   .portrait {
-    top: calc(54% - 2rem);
+    top: clamp(24rem, calc(54svh - 2rem), 29rem);
     bottom: auto;
     width: 170vw;
     max-width: none;
