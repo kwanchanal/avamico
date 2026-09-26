@@ -5,6 +5,7 @@
   --paper: #fff9fc;
   --edge: clamp(1rem, 3.35vw, 3.5rem);
   --mono: "Roboto Mono", monospace;
+  --ibm: "IBM Plex Sans Thai", "IBM Plex Sans JP", sans-serif;
   --sans: "Inter", sans-serif;
 }
 
@@ -135,7 +136,7 @@ a {
   z-index: 1;
   width: 100%;
   margin: clamp(-1.5rem, -2vh, -0.5rem) 0 0;
-  font-family: var(--sans);
+  font-family: var(--mono);
   font-size: clamp(5rem, 12.8vw, 12rem);
   font-weight: 400;
   line-height: 0.9;
@@ -156,6 +157,11 @@ a {
   white-space: nowrap;
   transform: translateY(0);
   opacity: 1;
+}
+
+.greeting__word--ibm {
+  font-family: var(--ibm);
+  letter-spacing: -0.06em;
 }
 
 .greeting__word.is-leaving {
