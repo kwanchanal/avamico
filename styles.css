@@ -352,11 +352,13 @@ a {
 
   .hero__contact {
     top: clamp(14rem, 27vh, 16rem);
-    right: var(--edge);
+    right: auto;
     bottom: auto;
+    left: 50%;
     width: min(78vw, 23rem);
     min-height: 15rem;
     align-items: center;
+    transform: translateX(-50%);
   }
 
   .hero__contact-copy {
