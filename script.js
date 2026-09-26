@@ -5,7 +5,6 @@ const greetings = [
   { text: "Hola,", scale: 1 },
   { text: "你好,", scale: 1 },
   { text: "こんにちは,", scale: 0.72 },
-  { text: "Hello,", scale: 1 },
 ];
 
 const greeting = document.querySelector("[data-greeting]");
