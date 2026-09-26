@@ -335,7 +335,8 @@ a {
   }
 
   .greeting {
-    font-size: clamp(3.65rem, 18vw, 6.5rem);
+    z-index: 3;
+    font-size: clamp(5rem, 30vw, 7.5rem);
   }
 
   .greeting__viewport {
@@ -343,17 +344,23 @@ a {
   }
 
   .portrait {
-    bottom: -8vh;
+    top: clamp(27rem, 52vh, 29rem);
+    bottom: auto;
     width: 152vw;
     max-width: none;
   }
 
   .hero__contact {
-    top: clamp(16rem, 32vh, 18.5rem);
+    top: clamp(14rem, 27vh, 16rem);
     right: var(--edge);
     bottom: auto;
     width: min(78vw, 23rem);
     min-height: 15rem;
+    align-items: center;
+  }
+
+  .hero__contact-copy {
+    text-align: center;
   }
 
   .projects {
