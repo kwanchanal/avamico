@@ -228,7 +228,7 @@ a {
   min-height: clamp(15.5rem, 29vh, 19rem);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   gap: clamp(1rem, 2vh, 1.7rem);
   padding: clamp(1.5rem, 2.5vw, 2.5rem);
@@ -240,7 +240,7 @@ a {
   font-size: clamp(1.15rem, 1.65vw, 1.7rem);
   line-height: 1.04;
   letter-spacing: -0.04em;
-  text-align: center;
+  text-align: left;
 }
 
 .hero__contact .button {
