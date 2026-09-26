@@ -344,9 +344,9 @@ a {
   }
 
   .portrait {
-    top: clamp(27rem, 52vh, 29rem);
+    top: 54%;
     bottom: auto;
-    width: 152vw;
+    width: 170vw;
     max-width: none;
   }
 
