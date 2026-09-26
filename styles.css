@@ -178,7 +178,7 @@ a {
   position: absolute;
   z-index: 2;
   left: 50%;
-  bottom: clamp(-7rem, calc(-8vh - 1rem), -5rem);
+  bottom: clamp(-8rem, calc(-8vh - 2rem), -6rem);
   width: min(76vw, 75rem);
   aspect-ratio: 3 / 2;
   transform: translateX(-50%);
