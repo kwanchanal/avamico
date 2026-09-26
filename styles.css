@@ -344,7 +344,7 @@ a {
   }
 
   .portrait {
-    top: 54%;
+    top: calc(54% - 2rem);
     bottom: auto;
     width: 170vw;
     max-width: none;
