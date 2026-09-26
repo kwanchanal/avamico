@@ -170,7 +170,7 @@ a {
   position: absolute;
   z-index: 2;
   left: 50%;
-  bottom: clamp(-2.5rem, -4vh, -1rem);
+  bottom: clamp(-6rem, -8vh, -4rem);
   width: min(76vw, 75rem);
   aspect-ratio: 3 / 2;
   transform: translateX(-50%);
@@ -318,7 +318,7 @@ a {
   }
 
   .portrait {
-    bottom: 10vh;
+    bottom: 4vh;
     width: 152vw;
     max-width: none;
   }
