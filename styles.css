@@ -221,9 +221,9 @@ a {
 
 .hero__contact {
   position: absolute;
-  z-index: 4;
-  right: 0;
-  bottom: 0;
+  z-index: 1;
+  right: clamp(2rem, 6vw, 6rem);
+  bottom: clamp(2rem, 7vh, 5rem);
   width: clamp(20rem, 27vw, 28rem);
   min-height: clamp(15.5rem, 29vh, 19rem);
   display: flex;
