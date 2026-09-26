@@ -340,7 +340,7 @@ a {
   z-index: 0;
   left: 50%;
   bottom: clamp(3.5rem, 5.5vw, 6rem);
-  width: 92vw;
+  width: 100vw;
   height: auto;
   transform: translateX(-50%);
   filter: grayscale(1) contrast(1.05);
