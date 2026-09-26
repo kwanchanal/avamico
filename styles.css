@@ -325,25 +325,24 @@ a {
 .site-footer {
   position: relative;
   z-index: 1;
-  min-height: min(77vw, 62rem);
+  min-height: 68vw;
   overflow: hidden;
   display: flex;
   align-items: flex-end;
   justify-content: center;
   padding: clamp(1.5rem, 3vw, 3rem) var(--edge);
-  background: var(--acid);
+  background: linear-gradient(to bottom, var(--paper) 0 70%, var(--acid) 70% 100%);
 }
 
 .site-footer__image {
   position: absolute;
   z-index: 0;
   left: 50%;
-  bottom: clamp(4rem, 7vw, 7rem);
-  width: min(104vw, 100rem);
+  bottom: clamp(3.5rem, 5.5vw, 6rem);
+  width: 92vw;
   height: auto;
   transform: translateX(-50%);
-  filter: grayscale(1) contrast(1.08);
-  mix-blend-mode: multiply;
+  filter: grayscale(1) contrast(1.05);
   pointer-events: none;
 }
 
@@ -467,10 +466,11 @@ a {
 
   .site-footer {
     min-height: 43rem;
+    background: linear-gradient(to bottom, var(--paper) 0 70%, var(--acid) 70% 100%);
   }
 
   .site-footer__image {
-    bottom: 7rem;
+    bottom: 6.5rem;
     width: 170vw;
   }
 }
