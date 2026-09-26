@@ -529,7 +529,7 @@ a {
   }
 
   .site-footer {
-    margin-top: -10rem;
+    margin-top: -12rem;
     min-height: 43rem;
     background: linear-gradient(to bottom, var(--paper) 0 70%, var(--acid) 70% 100%);
   }
