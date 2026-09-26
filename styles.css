@@ -325,6 +325,7 @@ a {
 .site-footer {
   position: relative;
   z-index: 1;
+  margin-top: clamp(-5rem, -4vw, -3rem);
   min-height: 68vw;
   overflow: hidden;
   display: flex;
